@@ -1,0 +1,36 @@
+@import '../../assets/utils';
+
+#stats-header{
+  background: lightgrey;
+  //box-shadow: $default-box-shadow;
+  padding-bottom: 0.75rem;
+  position: relative;
+  .top-header {
+    padding-top: 1rem;
+
+    .return-home {
+      position: absolute;
+      right: 2rem;
+    }
+  }
+  .header-wrapper{
+    margin: 0;
+    margin-top: 1rem;
+    //position: center;
+  }
+  .header-title{
+    font-weight: 400;
+
+    &::after{
+      content: ':';
+      animation: fadein 1s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+    }
+  }
+  // add separator if wanted
+  .header-content{
+    padding: 4rem 0;
+  }
+  .header-description{
+    max-width: 50%;
+  }
+}

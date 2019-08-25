@@ -1,0 +1,27 @@
+@import '../../../assets/utils';
+
+.logon-main-text {
+  border-style: solid;
+  border-width: 2px;
+  border-color: whitesmoke;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  @include flex-center;
+  flex-direction: column;
+  color: whitesmoke;
+
+  .logon-input {
+    display: flex;
+    margin-top: 1rem;
+
+    > * {
+      margin-left: 1rem;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}

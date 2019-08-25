@@ -1,0 +1,17 @@
+@import "../../assets/utils";
+
+.component-footer{
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: lightgrey;
+  position: relative;
+  bottom: 0;
+  width: 110%;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  .align-right {
+    justify-content: right;
+  }
+}

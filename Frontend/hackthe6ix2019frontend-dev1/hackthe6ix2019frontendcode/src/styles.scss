@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'assets/_utils.scss';
+@import '../node_modules/bulma/bulma.sass';
+
+body {
+  min-height: 100vh;
+  background: whitesmoke;
+  margin: 0;
+}
+markdown *{
+  margin-top: 1rem;
+  &:first-child{
+    margin-top: 0;
+  }
+}

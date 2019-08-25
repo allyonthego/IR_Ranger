@@ -1,0 +1,28 @@
+@import '../../assets/utils';
+
+#component-dashboard {
+  //text-align: center;
+  @include flex-center;
+  flex-direction: column;
+  //overflow: auto;
+  //color: white;
+  background-image: url('../../assets/images/mountains-background.jpg');
+  background-size: cover;
+  background-position: left top;
+  height: 100vh;
+  position: relative;
+
+  .dashboard-row {
+    display: flex;
+    vertical-align: center;
+    margin-top: 2rem;
+
+    > * {
+      margin-left: 1rem;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
